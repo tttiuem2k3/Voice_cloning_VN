@@ -1,1 +1,1 @@
-# Voice_cloning_VN
+# Hệ thống đang trong giai đoạn hoàn thiện
