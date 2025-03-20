@@ -1,0 +1,95 @@
+/* Header styles */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Black+Han+Sans&family=Anton&display=swap');
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    color: #343a40;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e9ecef;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.logo h1 {
+    font-size: 2.5rem;  /* Tăng kích thước */
+    font-weight: bold;
+    color: #31860d;
+    text-transform: uppercase; /* Chữ in hoa */
+    letter-spacing: 2px; /* Tăng khoảng cách giữa các chữ */
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3); /* Đổ bóng nhẹ */
+    background: linear-gradient(45deg, #399f0d, #7cd30f); /* Gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Bungee', sans-serif;
+    
+    margin: 0;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo h1:hover {
+    transform: scale(1.1); /* Hiệu ứng phóng to khi hover */
+}
+
+
+.nav {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #495057;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #e9ecef;
+    color: #2b6cb0;
+}
+
+.nav a.active {
+    border-bottom: 2px solid #2b6cb0;
+    color: #2b6cb0;
+}
+
+main {
+    padding: 20px;
+    background-color: #ffffff;
+    color: #343a40;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}

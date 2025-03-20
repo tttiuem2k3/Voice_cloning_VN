@@ -1,0 +1,13 @@
+VLSP2020 -Tiếng Việt: VLSP2020 được đóng góp bởi Viện Nghiên cứu Dữ liệu lớn VinBigdata.Bộ dữ liệu bao gồm 100 giờ dữ liệu tiếng nói được thu thập từ các 
+nguồn mở và phiên âm thủ công với độ chính xác 96%.
+https://institute.vinbigdata.org/events/vinbigdata-chia-se-100-gio-du-lieu-tieng-noi-cho-cong-dong/.
+
+LibriSpeech 360 Clean: Bộ dữ liệu này bao gồm các đoạn hội thoại tiếng Anh chất lượng cao.
+VoxCeleb: VoxCeleb là nguồn dữ liệu âm thanh lớn, chứa hơn 100,000 đoạn hội thoại từ hơn 1,251 người nổi tiếng.
+AISHELL-3: Bộ dữ liệu tiếng Trung này bao gồm hơn 85.000 đoạn hội thoại từ 218 người nói với đa dạng giọng điệu và cách phát âm.
+VIVOS: Đây là bộ dữ liệu tiếng Việt gồm các đoạn hội thoại từ nhiều người nói với các giọng vùng miền khác nhau. 
+Các loại dữ liệu trên có thể tìm thấy trên: https://www.kaggle.com/
+
+Bộ dữ liệu ESC-50 là một tập hợp gồm 2000 bản ghi âm môi trường đã được gắn nhãn,
+phù hợp để đánh giá và so sánh các phương pháp phân loại âm thanh môi trường.
+https://github.com/karolpiczak/ESC-50?tab=readme-ov-file
