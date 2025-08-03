@@ -4,8 +4,6 @@
 
 Dự án phát triển **Hệ thống chuyển đổi văn bản thành giọng nói (Text-to-Speech)** với khả năng nhân bản giọng nói chuyên sâu dành riêng cho tiếng Việt. Hệ thống ứng dụng các công nghệ tiên tiến nhất hiện nay như **Deep Learning**, **Transformer**, **U-Net**, **Tacotron**, **FastSpeech**, **VITS** và sử dụng mô hình tiền huấn luyện **XTTS-v2**.
 
-📌 **Sinh viên thực hiện:** Trần Tấn Thịnh  
-📅 **Thời gian thực hiện:** 01/2025 – 03/2025
 ---
 
 ## ▶️ Video Demo
@@ -55,22 +53,29 @@ Voice_cloning_VN
 │
 ├── frontend          # Giao diện React
 ├── backend           # Backend FastAPI
-├── ai            # Các mô hình Deep Learning được huấn luyện
+├── ai                # Cách mô hình Deep Learning được huấn luyện
 ├── data              # Dữ liệu được thu thập, tiền xử lý và sử dụng
 
 ```
 
 ---
 
-## 📸 Một số hình ảnh minh họa
+## 📸 Các hình ảnh minh họa
 
-| Trang cải thiện giọng nói | Trang so sánh giọng nói |
-| ------------------------- | ----------------------- |
-| ![](images/improve_voice.png) | ![](images/compare_voice.png) |
+### 🚧 Giải pháp xây dựng mô hình Deep Learning
+| | | | |
+|---|---|---|---|
+| ![](image/1.jpg) | ![](image/2.jpg) | ![](image/3.jpg) | ![](image/4.jpg) |
 
-| Trang Text-to-Speech      |
-| ------------------------- |
-| ![](images/tts_page.png)  |
+### 🎨 Thiết kế và triển khai hệ thống
+| | | | |
+|---|---|---|---|
+| ![](image/5.jpg) | ![](image/6.jpg) | ![](image/7.jpg) | ![](image/8.jpg) |
+
+### 📊 Kết quả mô hình
+| | |
+|---|---|
+| ![](image/9.jpg) | ![](image/10.jpg) |
 
 ---
 
@@ -124,7 +129,7 @@ Bạn có thể tham gia đóng góp theo các cách sau:
 ##  📞 Liên hệ
 - 📧 Email: tttiuem2k3@gmail.com
 - 👥 Linkedin: [Thịnh Trần](https://www.linkedin.com/in/thinh-tran-04122k3/)
-- 💬 Zalo: +84 329966939 - +84 336639775
+- 💬 Zalo - phone: +84 329966939 hoặc +84 336639775
 
 ---
 
