@@ -65,17 +65,17 @@ Voice_cloning_VN
 ### 🚧 Giải pháp xây dựng mô hình Deep Learning
 | | | | |
 |---|---|---|---|
-| ![](image/1.jpg) | ![](image/2.jpg) | ![](image/3.jpg) | ![](image/4.jpg) |
+| ![](image/1.JPG) | ![](image/2.JPG) | ![](image/3.JPG) | ![](image/4.JPG) |
 
 ### 🎨 Thiết kế và triển khai hệ thống
 | | | | |
 |---|---|---|---|
-| ![](image/5.jpg) | ![](image/6.jpg) | ![](image/7.jpg) | ![](image/8.jpg) |
+| ![](image/5.JPG) | ![](image/6.JPG) | ![](image/7.JPG) | ![](image/8.JPG) |
 
 ### 📊 Kết quả mô hình
 | | |
 |---|---|
-| ![](image/9.jpg) | ![](image/10.jpg) |
+| ![](image/9.JPG) | ![](image/10.JPG) |
 
 ---
 
