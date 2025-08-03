@@ -6,6 +6,11 @@ Dự án phát triển **Hệ thống chuyển đổi văn bản thành giọng 
 
 📌 **Sinh viên thực hiện:** Trần Tấn Thịnh  
 📅 **Thời gian thực hiện:** 01/2025 – 03/2025
+---
+
+## ▶️ Video Demo
+
+📺 Video demo hệ thống xem [tại đây](https://www.youtube.com/watch?v=LRkJD9daWrs)
 
 ---
 
@@ -69,12 +74,6 @@ Voice_cloning_VN
 
 ---
 
-## ▶️ Video Demo
-
-📺 Video demo hệ thống xem [tại đây](https://www.youtube.com/watch?v=LRkJD9daWrs)
-
----
-
 ## 🚧 Hướng dẫn cài đặt
 
 ### Clone Repository
@@ -119,11 +118,6 @@ Bạn có thể tham gia đóng góp theo các cách sau:
 - [Tacotron](https://github.com/Rayhane-mamah/Tacotron-2)
 - [FastSpeech](https://github.com/ming024/FastSpeech2)
 - [XTTS-v2](https://huggingface.co/coqui/XTTS-v2)
-- [VNPT IT](http://www.vnptit.vn)
-
----
-
-🌟 **Trần Tấn Thịnh – ĐH Bách Khoa Đà Nẵng – 2025** 🌟
 
 ---
 
@@ -131,3 +125,7 @@ Bạn có thể tham gia đóng góp theo các cách sau:
 - 📧 Email: tttiuem2k3@gmail.com
 - 👥 Linkedin: [Thịnh Trần](https://www.linkedin.com/in/thinh-tran-04122k3/)
 - 💬 Zalo: +84 329966939 - +84 336639775
+
+---
+
+🌟 **Trần Tấn Thịnh – ĐH Bách Khoa Đà Nẵng – 2025** 🌟
