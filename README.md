@@ -1,78 +1,72 @@
-# 🎙️ Hệ Thống Chuyển Văn Bản Thành Giọng Nói Tiếng Việt (Text-to-Speech) 🇻🇳
+# 🎙️ Vietnamese Text-to-Speech System (TTS) 🇻🇳
 
-## 🌟 Giới thiệu
-
-Dự án phát triển **Hệ thống chuyển đổi văn bản thành giọng nói (Text-to-Speech)** với khả năng nhân bản giọng nói chuyên sâu dành riêng cho tiếng Việt. Hệ thống ứng dụng các công nghệ tiên tiến nhất hiện nay như **Deep Learning**, **Transformer**, **U-Net**, **Tacotron**, **FastSpeech**, **VITS** và sử dụng mô hình tiền huấn luyện **XTTS-v2**.
-
----
-
-## ▶️ Video Demo
-
-📺 Video demo hệ thống xem [tại đây](https://www.youtube.com/watch?v=LRkJD9daWrs)
+## 🌟 Introduction
+This project develops a **Text-to-Speech (TTS) System** with advanced **voice cloning** capabilities tailored specifically for Vietnamese.  
+It leverages state-of-the-art technologies such as **Deep Learning**, **Transformer**, **U-Net**, **Tacotron**, **FastSpeech**, **VITS**, and uses the **pretrained XTTS-v2** model.
 
 ---
 
-## 🚀 Chức năng chính
-
-- 🔊 **Chuyển văn bản thành giọng nói tiếng Việt:** Tạo ra âm thanh tự nhiên với độ chính xác cao từ văn bản đầu vào.
-- 🎤 **Nhân bản giọng nói:** Có thể nhân bản giọng nói từ một đoạn ghi âm ngắn ban đầu.
-- 🎚️ **Khử nhiễu và cải thiện chất lượng âm thanh:** Loại bỏ nhiễu, tạp âm, giúp âm thanh rõ ràng hơn.
-- 🔍 **So sánh và phân tích độ tương đồng giọng nói:** Kiểm tra và xác định mức độ tương đồng giữa các giọng nói.
+## ▶️ Demo Video
+📺 Watch the system demo [here](https://www.youtube.com/watch?v=LRkJD9daWrs)
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## 🚀 Key Features
+- 🔊 **Vietnamese Text-to-Speech Conversion:** Generate natural, high-accuracy audio from text input.  
+- 🎤 **Voice Cloning:** Clone a voice from just a short sample recording.  
+- 🎚️ **Noise Reduction & Audio Enhancement:** Remove noise and unwanted sounds for clearer audio.  
+- 🔍 **Voice Similarity Analysis:** Compare and determine the similarity between different voices.
+
+---
+
+## 🛠️ Technologies Used
 
 ### Frontend
-
-- ⚛️ **React (with Vite):** Phát triển giao diện người dùng nhanh chóng, trực quan và hiệu suất cao.
-- 🎨 **HTML/CSS/JavaScript:** Thiết kế giao diện hiện đại, thân thiện và tương tác tốt.
+- ⚛️ **React (with Vite):** Fast, efficient, and intuitive UI development.  
+- 🎨 **HTML/CSS/JavaScript:** Modern, user-friendly, and interactive interface design.  
 
 ### Backend
-
-- 🐍 **Python 3.11:** Xử lý logic backend mạnh mẽ, dễ dàng mở rộng.
-- 🌐 **FastAPI:** Framework phát triển API nhanh chóng, hiệu suất vượt trội và bảo mật.
-- 📚 **TensorFlow, PyTorch:** Các thư viện deep learning hàng đầu hỗ trợ huấn luyện và triển khai mô hình.
-- 🎧 **Librosa, Soundfile:** Thư viện xử lý âm thanh chuyên sâu, trích xuất và phân tích đặc trưng giọng nói.
+- 🐍 **Python 3.11:** Robust and scalable backend logic.  
+- 🌐 **FastAPI:** High-performance, secure, and rapid API development framework.  
+- 📚 **TensorFlow, PyTorch:** Leading deep learning libraries for model training and deployment.  
+- 🎧 **Librosa, Soundfile:** Advanced audio processing libraries for voice feature extraction and analysis.  
 
 ### Deep Learning Models
-
-- 🧠 **Transformer:** Kiến trúc mạng học sâu giúp xử lý ngôn ngữ tự nhiên và âm thanh hiệu quả.
-- 📢 **Tacotron:** Chuyển đổi văn bản sang Mel Spectrogram.
-- 🚅 **FastSpeech:** Mô hình nhanh chóng tổng hợp giọng nói với độ ổn định cao, không sử dụng attention.
-- 🔊 **VITS:** Mô hình tiên tiến kết hợp VAE và GAN để tổng hợp giọng nói tự nhiên nhất.
-- 🌀 **U-Net:** Kiến trúc mạng CNN hiệu quả trong việc xử lý và khử nhiễu âm thanh.
-- 📌 **XTTS-v2:** Mô hình pretrained đa ngôn ngữ chuyên biệt cho giọng nói Việt Nam, khả năng tái tạo và chuyển đổi giọng nói linh hoạt.
+- 🧠 **Transformer** – Efficient processing of natural language and audio.  
+- 📢 **Tacotron** – Converts text into Mel Spectrograms.  
+- 🚅 **FastSpeech** – Fast and stable speech synthesis without attention mechanisms.  
+- 🔊 **VITS** – Combines VAE and GAN for highly natural speech.  
+- 🌀 **U-Net** – Noise reduction and audio enhancement.  
+- 📌 **XTTS-v2** – Pretrained multilingual model optimized for Vietnamese.  
 
 ---
 
-## 📂 Cấu trúc dự án
+## 📂 Project Structure
 
 ```
 Voice_cloning_VN
 │
-├── frontend          # Giao diện React
-├── backend           # Backend FastAPI
-├── ai                # Cách mô hình Deep Learning được huấn luyện
-├── data              # Dữ liệu được thu thập, tiền xử lý và sử dụng
+├── fe        # Giao diện React
+├── be        # Backend FastAPI
+├── ai        # Cách mô hình Deep Learning được huấn luyện
+├── data      # Dữ liệu được thu thập, tiền xử lý và sử dụng
 
 ```
 
 ---
 
-## 📸 Các hình ảnh minh họa
-
-### 🚧 Giải pháp xây dựng mô hình Deep Learning
+## 📸 Illustrations
+### 🚧 Deep Learning Model Architecture
 | | | | |
 |---|---|---|---|
 | ![](image/1.JPG) | ![](image/2.JPG) | ![](image/3.JPG) | ![](image/4.JPG) |
 
-### 🎨 Thiết kế và triển khai hệ thống
+### 🎨 System Design & Implementation
 | | | | |
 |---|---|---|---|
 | ![](image/5.JPG) | ![](image/6.JPG) | ![](image/7.JPG) | ![](image/8.JPG) |
 
-### 📊 Kết quả mô hình
+### 📊 Model Results
 | | |
 |---|---|
 | ![](image/9.JPG) | ![](image/10.JPG) |
@@ -99,7 +93,7 @@ npm install
 npm run dev
 ```
 
-### Tải mô hình pretrained XTTS-v2
+### Download Pretrained XTTS-v2 Model
 ```python
 from huggingface_hub import snapshot_download
 model_dir = r"./Model"
@@ -108,17 +102,14 @@ snapshot_download(repo_id="thinhlpg/viXTTS", repo_type="model", local_dir=model_
 
 ---
 
-## 🌱 Cách thức đóng góp
-
-Bạn có thể tham gia đóng góp theo các cách sau:
-
-- ⭐ Đánh giá sao repository
-- 🐞 Báo cáo các vấn đề qua mục [issues](https://github.com/tttiuem2k3/Voice_cloning_VN/issues)
-- 📥 Tạo pull request để cải thiện dự án
+## 🌱 Contribution Guidelines
+- ⭐ Star the repository
+- 🐞 Report issues via [issues](https://github.com/tttiuem2k3/Voice_cloning_VN/issues)
+- 📥 Submit pull requests
 
 ---
 
-## 📜 Tham khảo
+## 📜 References
 
 - [Tacotron](https://github.com/Rayhane-mamah/Tacotron-2)
 - [FastSpeech](https://github.com/ming024/FastSpeech2)
@@ -126,11 +117,9 @@ Bạn có thể tham gia đóng góp theo các cách sau:
 
 ---
 
-##  📞 Liên hệ
+##  📞 Contact
 - 📧 Email: tttiuem2k3@gmail.com
 - 👥 Linkedin: [Thịnh Trần](https://www.linkedin.com/in/thinh-tran-04122k3/)
-- 💬 Zalo - phone: +84 329966939 hoặc +84 336639775
+- 💬 Zalo - phone: +84 329966939 | +84 336639775
 
 ---
-
-🌟 **Trần Tấn Thịnh – ĐH Bách Khoa Đà Nẵng – 2025** 🌟
