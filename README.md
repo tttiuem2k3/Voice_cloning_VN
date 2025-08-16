@@ -52,6 +52,30 @@ Voice_cloning_VN
 ├── data      # Dữ liệu được thu thập, tiền xử lý và sử dụng
 
 ```
+---
+
+## 📂 Dataset
+
+The system was trained and evaluated on a variety of datasets:
+
+- **[VLSP2020](https://institute.vinbigdata.org/events/vinbigdata-chia-se-100-gio-du-lieu-tieng-noi-cho-cong-dong/)** – A Vietnamese speech dataset with over 100 hours of recorded audio, designed for speech processing research.
+
+- **LibriSpeech** – A large-scale, high-quality English speech dataset extracted from public audiobooks.
+
+- **VoxCeleb** – A diverse speech dataset collected from online videos of various celebrities.
+
+- **AISHELL-3** – A Mandarin Chinese speech dataset with multiple speakers, used for both TTS and ASR training.
+
+- **VIVOS** – A Vietnamese speech dataset consisting of short spoken sentences for speech recognition and synthesis.
+
+- **[ESC-50](https://github.com/karolpiczak/ESC-50?tab=readme-ov-file)** – A dataset of 2,000 labeled environmental audio recordings, each 5 seconds long, categorized into 50 semantic classes (40 samples per class).  
+  The dataset is divided into 5 major categories:
+  1. **Animal sounds** (e.g., chirping birds, barking dogs).
+  2. **Natural soundscapes & water sounds** (e.g., rain, sea waves, wind).
+  3. **Human non-speech sounds** (e.g., clapping, coughing, footsteps).
+  4. **Indoor sounds** (e.g., keyboard typing, door opening, vacuum cleaner).
+  5. **Urban noise/outdoor sounds** (e.g., traffic, sirens, trains).
+
 
 ---
 
