@@ -1,4 +1,4 @@
-# 🎙️ Vietnamese Text-to-Speech System (TTS) 🇻🇳
+# 🎙️ Vietnamese Text-to-Speech System (TTS) 🇻🇳 
 
 ## 🌟 Introduction
 This project develops a **Text-to-Speech (TTS) System** with advanced **voice cloning** capabilities tailored specifically for Vietnamese.  
